@@ -1,0 +1,384 @@
+.checkboxgroup {
+  display: inline-block;
+  text-align: center;
+}
+.checkboxgroup label {
+  display: block;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.pick input::-webkit-outer-spin-button,
+.pick input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.pick input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.pick {
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+
+  padding: 40px 0 180px 0;
+}
+
+.pick .title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.pick .descr {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.pick .subtitle {
+  margin-top: 46px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  color: #FE9013;
+}
+
+.pick .wrapper {
+  margin-top: 60px;
+  padding: 40px 92px 62px 92px;
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+}
+
+.pick .wrap-title {
+  margin-right: 7px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #FE9013;
+}
+
+.pick .wrap-descr {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333B41;
+}
+
+.pick .formula-wrap {
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 542px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pick .number-wrap {
+  align-self:center;
+  margin-right: 5px;
+}
+
+.pick .number {
+  margin-top: 52px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.pick .number-descr {
+  margin-top: 11px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #333B41;
+}
+.pick .multi {
+  margin-top: 26px;
+  margin-right: 60px;
+  align-self: center;
+}
+
+.pick .panda-pic {
+  margin-right: 10px;
+}
+
+.pick .radio-decsr {
+  margin-top: 43px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.pick .chceckboxes {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+
+  border: 12px solid #404950;
+  border-radius: 2px;
+  height: 2px;
+  background: #72828E;
+  padding: 0 15px 0 15px;
+}
+
+.pick .checkboxgroup {
+  transform: translate(0px, -3px);
+}
+
+.pick .circle img {
+  visibility: hidden;
+}
+
+
+.pick .chceckboxes input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  /* Not removed via appearance */
+  margin: 0;
+  width: 9px;
+  height: 9px;
+  border: 1px solid #FFEE2E;
+  border-radius: 50%;
+  background-color: #FFEE2E;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  z-index: -5;
+}
+
+// .pick .checkboxgroup input[type="radio"]:checked + label {
+//   color: #FE9013;
+// }
+
+.pick .circle {
+	z-index: -3;
+	width: 41px;
+  height: 41px;
+	border-radius: 100%;
+	position: absolute;
+	transform: translate(-40%, -39%);
+}
+
+.pick .circle:hover {
+  cursor: pointer;
+}
+
+// .pick .circle:hover img {
+//   visibility: visible;
+// }
+
+// .pick .circle img:hover {
+//   visibility: visible;
+// }
+
+// .pick .checkboxgroup:hover img {
+//   visibility: visible;
+// }
+
+.pick .chceckboxes label {
+  // margin-top: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #333B41;
+  position: absolute;
+  transform: translate(-40%, 64%);
+}
+
+.pick .checkboxgroup:nth-of-type(4) label {
+  transform: translate(-50%, 64%);
+}
+.pick .checkboxgroup:nth-of-type(5) label {
+  transform: translate(-50%, 64%);
+}
+.pick .checkboxgroup:nth-of-type(6) label {
+  transform: translate(-50%, 64%);
+}
+.pick .checkboxgroup:nth-of-type(7) label {
+  transform: translate(-71%, 64%);
+}
+.pick .checkboxgroup:nth-of-type(8) label {
+  transform: translate(-71%, 64%);
+}
+
+.pick .input-wrap {
+  max-width: 275px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+
+.pick .input-wrap input[type="number"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  /* Not removed via appearance */
+  margin: 0;
+}
+
+.pick .input-wrap input {
+  padding-left: 9px;
+  width: 254px;
+  height: 47px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #929699;
+  background: transparent;
+  border: 1px solid #929699;
+  border-radius: 2px;
+}
+.pick .input-wrap .dollar {
+  position: absolute;
+  bottom: 21%;
+  right: 11px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 140%;
+  color: #929699;
+}
+
+.pick .input-wrap input:focus {
+  border: 1px solid #4B9200;
+  border-radius: 2px;
+  color: #4B9200;
+}
+
+.pick .input-wrap input:focus .dollar {
+  color: #4B9200;
+}
+
+.pick .radio-wrap {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 39px;
+}
+
+.pick .radio-wrap .radiogroup {
+  margin-right: 11px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333B41;
+ 
+}
+
+.pick .radiogroup label {
+  margin-left: 4px;
+}
+
+.pick .radiogroup input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  /* Not removed via appearance */
+  margin: 0;
+}
+
+.pick .radiogroup input[type='radio'] {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  top: 1px;
+  left: -1px;
+  position: relative;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #FE9013;
+  cursor: pointer;
+}
+
+.pick .radiogroup input[type='radio']:checked {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  top: 1px;
+  left: -1px;
+  position: relative;
+  background-color: #4B9200;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #4B9200;;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  z-index: 1;
+  width: 298px;
+  height: 54px;
+  border-radius: 25px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.orange {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+
+.button:hover {
+  background: #E47209;
+}
+.button:active {
+  background: #4B9200;
+}
+
+.pick .button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.pick .share {
+  margin-top: 30px;
+  margin-left: 8px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333B41;
+}

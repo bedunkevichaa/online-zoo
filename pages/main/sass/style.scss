@@ -1,0 +1,27 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+  
+.header #menu .wrapper {
+  display: none;
+}
+
+
+@import './media';
+@import './header';
+@import './watch';
+@import './backstage';
+@import './pets';
+@import './pick';
+@import './testimonials';
+@import './footer';
